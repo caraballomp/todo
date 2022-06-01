@@ -1,0 +1,30 @@
+<p><%= notice %></p>
+<div class='todo_image_background'>
+<div class="text-center selector-for-some-widget">
+<h1 style="color: cyan" >Everyday To-Do List </h1>
+
+<div id="lists">
+<table class= "table table-hover" >
+  <thead>
+    <tr>
+        <th> Description</th>
+        <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  
+
+  <% @lists.each do |list| %>
+  <tr>
+    <%= render list %> 
+    <p>
+    <%= link_to "Edit task", list %>
+    </tr>
+  <% end %>
+  </tbody>
+  </table>
+</div>
+
+<%= link_to "New Item", new_list_path %>
+</div>

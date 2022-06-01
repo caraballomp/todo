@@ -1,0 +1,47 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ */
+@import "bootstrap"; 
+
+.striker {
+    text-decoration: line-through;
+}
+
+
+
+.todo_image_background {
+    background-image: url("https://images5.alphacoders.com/512/thumb-1920-512463.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+
+.to_image_background {
+    background-image: url("https://images7.alphacoders.com/333/thumb-1920-333950.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+    width: 50%;
+  padding: 5%;
+  border: 4px solid black;
+  margin: .5em auto;
+  }

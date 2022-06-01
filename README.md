@@ -1,5 +1,5 @@
 
-# Project To-Do & SuperHero Names 
+# Project Disney Theme To-Do List 
 <br />
 <br />
 
@@ -9,11 +9,9 @@
 
 <br /> 
 
-* Second app is an option from the First app if I have enough time to make.
-
 * Wanting to make simple apps for beginner being able to help out in their journey in Ruby on Rails. 
 
-* Easy to read and following instructions in how to make them. 
+* Easy to read code. 
 
 * Completely from scratch. 
 
@@ -23,19 +21,10 @@
 ### First App TO-DO
 Users will be able to make their own todo list<br /> 
 Crossing out items <br /> 
-Including upating <br /> 
+Including upating <br />
+Each layout displaying fun easy to do for kids <br /> 
 Will be upload to Heruko and using bootstrap<br /> 
 <br /> 
-<br /> 
-<br /> 
-### Second App SuperHero Names
-Users will be able to make their own characters<br /> 
-Choosing Teams <br /> 
-Including updating <br /> 
-Will be upload to Heruko and using bootstrap
-
-
-
 <br /> 
 <br /> 
 <br /> 
