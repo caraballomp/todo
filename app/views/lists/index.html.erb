@@ -1,6 +1,6 @@
-<p><%= notice %></p>
-<div class='todo_image_background'>
-<div class="text-center selector-for-some-widget">
+<%= notice %>
+<div class='frozen_image_background'>
+<div class="text-center frozen_box">
 <h1 style="color: cyan" >Everyday To-Do List </h1>
 
 <div id="lists">
@@ -19,12 +19,14 @@
   <tr>
     <%= render list %> 
     <p>
-    <%= link_to "Edit task", list %>
+      <%= button_to link_to  "Edit Task", list , class: "c"  %>
+      <%= button_to "Destroy Task", list, method: :delete %>
     </tr>
   <% end %>
   </tbody>
   </table>
 </div>
 
-<%= link_to "New Item", new_list_path %>
+<%= link_to "New Item", new_list_path, class: "b"   %>
+<%= link_to "Delete Marked Items", home_trash_em_path, class: "b", method: :delete %> 
 </div>

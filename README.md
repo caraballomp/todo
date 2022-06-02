@@ -18,7 +18,7 @@
 * With Heruko and Bootstrap using to them to there fullest potential. 
 
 
-### First App TO-DO
+### TO-DO App
 Users will be able to make their own todo list<br /> 
 Crossing out items <br /> 
 Including upating <br />
