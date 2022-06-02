@@ -1,12 +1,13 @@
 <div class='bruno_image_background'>
-<div class="card text-center bruno_box">
-<h1 style="color: black" >New list</h1>
+<div class="centered bruno_box">
+<h1 class= "title_new_form" >New List</h1>
 
+
+<tr >
 <%= render "form", list: @list %>
-
 <br>
+<%= link_to "Go Home", lists_path, class:"btn btn-secondary btn-sm"  %>
 
-<div>
-  <%= link_to "Back to lists", lists_path %>
+</tr>
 </div>
 </div>

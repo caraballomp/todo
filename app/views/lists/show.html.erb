@@ -1,12 +1,11 @@
 <div class='bell_image_background'>
-<div class="card text-center bell_box">
+<div class="card text-center centered bell_box">
 
 <p style="color: white"><%= notice %>
 <%= render @list %>
 </p>
 <div >
-  <%= link_to "Edit this task", edit_list_path(@list) %> |
-  <%= link_to "Back to lists", lists_path %>
+  <%= link_to "Edit this task", edit_list_path(@list), class: "a" , class: "btn btn-primary btn-sm" %> |
+  <%= link_to "Back to lists", lists_path, class: "a", class:"btn btn-secondary btn-sm"  %>
 
-  <%= button_to "Delete this task", @list, method: :delete %>
 </div>

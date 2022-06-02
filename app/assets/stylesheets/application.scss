@@ -14,16 +14,26 @@
  */
 @import "bootstrap"; 
 
-.striker {
-    text-decoration: line-through;
+.title{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 82, 82);
+}
+.title_new_form{
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(201, 212, 81);
 }
 
-
+.striker {
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
 
 .frozen_image_background {
     background-image: url("https://images5.alphacoders.com/512/thumb-1920-512463.jpg");
     background-repeat: no-repeat, repeat;
-    height: 900px; /* You must set a specified height */
+    height: 800px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -41,7 +51,7 @@
   .bruno_image_background{
     background-image: url("https://images4.alphacoders.com/117/thumb-1920-1179608.png");
     background-repeat: no-repeat, repeat;
-    height: 1200px; /* You must set a specified height */
+    height: 800px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -72,16 +82,25 @@
   }
 
   .bruno_box {
-    height: 32vh;
-    width: 40vh;
+    height: 35vh;
+    width: 45vh;
     margin: auto;
-    position: relative;
-  background: yellow;
+    position: auto;
+  background: transparent;
+  text-align:center;
+    position: auto;
+  }
+
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .bell_box {
-    height: 15vh;
-    width: 30vh;
+    height: 17vh;
+    width: 33vh;
     margin: auto;
   background: rgb(49, 5, 5);
   }
@@ -91,7 +110,7 @@
   }
 
   .b{
-    color: rgb(202, 42, 202);
+    color: rgb(237, 56, 237);
 }
 
 .c{
