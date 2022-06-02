@@ -17,7 +17,7 @@
 .title{
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(1, 82, 82);
+    color: rgb(59, 151, 231);
 }
 .title_new_form{
     font-weight: bold;
@@ -33,7 +33,7 @@
 .frozen_image_background {
     background-image: url("https://images5.alphacoders.com/512/thumb-1920-512463.jpg");
     background-repeat: no-repeat, repeat;
-    height: 800px; /* You must set a specified height */
+    height: 1200px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -94,8 +94,8 @@
   }
 
   .bell_box {
-    height: 17vh;
-    width: 33vh;
+    height: 20vh;
+    width: 40vh;
     margin: auto;
   background: rgb(49, 5, 5);
   text-align: center;
@@ -132,6 +132,37 @@
 
 .button_list{
     background-color: #585858;
+    border: none;
+    padding: 9px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button_new{
+    background-color: #3b6445;
+    border: none;
+    padding: 9px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button_cross{
+    background-color: #fffc44;
+    border: none;
+    padding: 9px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button_all{
+    background-color: #000000;
     border: none;
     padding: 9px 10px;
     text-align: center;

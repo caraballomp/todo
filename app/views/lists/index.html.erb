@@ -1,6 +1,6 @@
 <%= notice %>
 <div class='frozen_image_background'>
-<div class=" centered frozen_box">
+<div class="frozen_box">
 <h1 class= "title"> Everyday To-Do List </h1>
 
 <div id="lists">
@@ -27,7 +27,7 @@
   </table>
 </div>
 
-<%= link_to "New Item", new_list_path, class: "b" , class: "btn btn-light btn-sm"  %> |
-<%= link_to "Delete Marked Items", home_trash_em_path, class: "b", class: "btn btn-warning btn-sm", method: :delete %> |
-<%= link_to "Delete All Items", home_trash_em_all_path, class: "b", class: "btn btn-dark btn-sm", method: :delete %>
+<%= link_to "New Item", new_list_path,  class: "a btn-default button_new"   %> |
+<%= link_to "Delete Marked Items", home_trash_em_path,  class: "b btn-default button_cross", method: :delete %> |
+<%= link_to "Delete All Items", home_trash_em_all_path, class: "b btn-default button_all", method: :delete %>
 </div>

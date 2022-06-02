@@ -5,6 +5,7 @@
 <%= render @list %>
 </p>
 <div >
+  <%= link_to "New Item", new_list_path,  class: "a btn-default button_new" %> |
   <%= link_to "Edit this task", edit_list_path(@list), class: "a btn-default button_edit" %> |
   <%= link_to "Back to lists", lists_path, class:"a btn-default button_list"  %>
 
